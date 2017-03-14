@@ -1,18 +1,22 @@
+import numpy as np
+import sklearn as sk
+import keras
 
+from keras.datasets import mnist
+from sklearn.preprocessing import OneHotEncoder
+from keras.layers import Dense
+from keras.models import Sequential
+from keras.layers import Dense
 
-# ##verifying indexing is correct
-# issig = np.where( testsig[1,] == (1000) )[0][0]
-# motiflen = 5
-# testseq [ 1 , range(issig,issig+motiflen) ]
-
-
-#let's try a basic algorithm to predict the signal
 
 ###
+#NN parameters
 CROP_SIZE = 192
 BATCH_SIZE = 1024
 ###
 
+
+#Reading in the seq data
 DNA_onehot_dict = {'A': np.array([1, 0, 0, 0]),
                    'C': np.array([0, 1, 0, 0]),
                    'G': np.array([0, 0, 1, 0]),

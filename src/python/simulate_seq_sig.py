@@ -99,3 +99,8 @@ with open(sigseqfile,'w') as sigfile:
         sigfile.write(''.join(str(sigslice))+'\n')
 
 print("Exiting data generation script")
+
+# ##verifying indexing is correct
+# issig = np.where( testsig[1,] == (1000) )[0][0]
+# motiflen = 5
+# testseq [ 1 , range(issig,issig+motiflen) ]

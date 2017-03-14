@@ -1,0 +1,17 @@
+Get the project org sorted
+    .gitignore
+    Figure out how to get the conig variables into python scripts
+    System for naming the different data inputs
+
+Get the basic NN Matt actually read done
+    Running
+    Put my own comments in it
+    See if it can actually find the TATA pattern
+
+Have it evaluating performance
+
+ Next step, upgrade to fuzziness
+
+ Next step, upgrade to multiple patterns
+
+ Next step, upgrade to complex dependencies on multiple patterns at once
