@@ -1,0 +1,52 @@
+name: ml_learn
+channels:
+- defaults
+dependencies:
+- appnope=0.1.0=py36_0
+- biopython=1.68=np112py36_0
+- cycler=0.10.0=py36_0
+- decorator=4.0.11=py36_0
+- freetype=2.5.5=2
+- icu=54.1=0
+- ipython=5.3.0=py36_0
+- ipython_genutils=0.1.0=py36_0
+- libpng=1.6.27=0
+- matplotlib=2.0.0=np112py36_0
+- mkl=2017.0.1=0
+- numpy=1.12.0=py36_0
+- openssl=1.0.2k=1
+- pandas=0.19.2=np112py36_1
+- path.py=10.1=py36_0
+- pexpect=4.2.1=py36_0
+- pickleshare=0.7.4=py36_0
+- pip=9.0.1=py36_1
+- prompt_toolkit=1.0.9=py36_0
+- ptyprocess=0.5.1=py36_0
+- pygments=2.2.0=py36_0
+- pyparsing=2.1.4=py36_0
+- pyqt=5.6.0=py36_2
+- python=3.6.0=0
+- python-dateutil=2.6.0=py36_0
+- pytz=2016.10=py36_0
+- qt=5.6.2=0
+- readline=6.2=2
+- scikit-learn=0.18.1=np112py36_1
+- scipy=0.18.1=np112py36_1
+- setuptools=27.2.0=py36_0
+- simplegeneric=0.8.1=py36_1
+- sip=4.18=py36_0
+- six=1.10.0=py36_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- traitlets=4.3.2=py36_0
+- wcwidth=0.1.7=py36_0
+- wheel=0.29.0=py36_0
+- xz=5.2.2=1
+- zlib=1.2.8=3
+- pip:
+  - ipython-genutils==0.1.0
+  - keras==1.2.2
+  - prompt-toolkit==1.0.9
+  - pyyaml==3.12
+  - theano==0.8.2
+

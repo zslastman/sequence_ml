@@ -1,11 +1,13 @@
-WORK_DIR: ~/Desktop/sequence_ml
+WORK_DIR: "~/Desktop/sequence_ml"
 
 testinput: "testInput.txt"
 testout: "testOut.txt"
 
 # All Python scripts used to process the data
 PythonScripts:
-  Rprofile: project_rprofile_eRNA.R
-  Rplot_functions: plotting_functions.R
-  Rmotif_functions: functions_motifs.R
   TestRscript: testscript.R
+
+
+#test data files
+data:
+    testdata1: ['data/testseq.txt','data/testsig.txt']

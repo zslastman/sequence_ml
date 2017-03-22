@@ -1,5 +1,4 @@
 Get the project org sorted
-    .gitignore
     Figure out how to get the conig variables into python scripts
     System for naming the different data inputs
 
@@ -15,3 +14,6 @@ Have it evaluating performance
  Next step, upgrade to multiple patterns
 
  Next step, upgrade to complex dependencies on multiple patterns at once
+
+
+ Do I have the ml learn script take in data as arguments maybe?
