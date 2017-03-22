@@ -1,4 +1,4 @@
-WORK_DIR: "~/Desktop/sequence_ml"
+WORK_DIR: "~/sequence_ml"
 
 testinput: "testInput.txt"
 testout: "testOut.txt"
